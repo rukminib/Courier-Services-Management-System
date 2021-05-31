@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8 ">
+	<title>Customer Register</title>
+	<link rel="stylesheet" href="CSS/customerlog.css">
+</head>
+<body >
+	<div class="login-box2">
+	<header><h1 align="center" style="color: white;">Customer Registration</h1></header>
+	<br>
+<table class="table" align="center">
+	<form action="process.php" method="POST">
+	<tr >
+		<th class="customer" style="color: white;">Customer Name:</th>
+		<td>
+    	<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true" style="color: white;"></i>
+		<input type="text" placeholder="Enter your Name" name="username">
+		</div>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer" style="color: white;">Customer Password:</th>
+		<td>
+    	<div class="textbox">
+		<i class="fa fa-lock" aria-hidden="true" style="color: white;"></i>
+		<input type="password" placeholder="Enter your Password" name="password">
+		</div>
+        </td>
+	</tr>
+	<tr>
+	     <th class="customer" style="color: white;">Customer Address:</th>
+	     <td>
+    	<div class="textbox">
+		<i class="fa fa-home" aria-hidden="true" style="color: white;"></i>
+		<input type="text" placeholder="Enter your Address" name="address">
+		</div>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer" style="color: white;">Customer Phone:</th>
+		<td>
+    	<div class="textbox">
+		<i class="fa fa-phone" aria-hidden="true" style="color: white;"></i>
+		<input type="text" placeholder="Enter your Phone Num" name="phone">
+		</div>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer" style="color: white;">Customer mail:</th>
+		<td>
+    	<div class="textbox">
+		<i class="fa fa-envelope" aria-hidden="true" style="color: white;"></i>
+		<input type="email" placeholder="Enter your E-Mail" name="email">
+		</div>
+        </td>
+	</tr>
+	<tr>
+		<td align="center" colspan="3">	
+    	<input  type="Submit" value="SUBMIT" class="btn" required>
+        </td>
+    </tr>
+    </form>
+</table>
+<a href="index.html" class="button1">
+	<input style="background-color: royalblue;
+			      color: white;
+			      padding: 5px;
+		          cursor: pointer;
+		          margin-top: 110px;
+		          margin-left: 150px;" type="Submit" value="GO BACK"  required></a>
+</div>
+</body>
+</html>
